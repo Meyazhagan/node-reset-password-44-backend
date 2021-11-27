@@ -66,7 +66,7 @@ const register = async (req, res, next) => {
   const link = `${config.get("frontend")}/verify-user/${token}`;
 
   await sendMail(
-    user.email,
+    newUser.email,
     "Verification For User",
     `Click the Link to Verify your email \n\n ${link} \n\n This Link will be expires in 48 hr`
   );
