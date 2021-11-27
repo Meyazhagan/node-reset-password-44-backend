@@ -1,0 +1,10 @@
+{
+  "mongodb": {
+    "url": "mongodb://localhost:27017/reset-password-db"
+  },
+  "screteKey": "",
+  "mail": {
+    "username": "",
+    "password": ""
+  }
+}

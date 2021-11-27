@@ -1,0 +1,11 @@
+{
+  "mongodb": {
+    "url": "RESET_PASSWORD_DB"
+  },
+  "screteKey": "RESET_PASSWORD_SCRETE_KEY",
+  "mail": {
+    "username": "MAILER_USERNAME",
+    "password": "MAILER_PASSWORD"
+  },
+  "frontend": "FRONTEND_URL"
+}
